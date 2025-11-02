@@ -10,30 +10,30 @@ The application provides a complete dashboard to perform all **CRUD (Create, Rea
 
 This project successfully integrates all 5 tasks from the internship guide:
 
-* [cite_start]**Task 1: Setting Up the Environment** [cite: 50]
+* **Task 1: Setting Up the Environment** 
     * Project developed on a local XAMPP server (Apache & MySQL).
-    * [cite_start]Version controlled using Git and hosted on this GitHub repository[cite: 62].
+    * Version controlled using Git and hosted on this GitHub repository.
 
-* [cite_start]**Task 2: Basic CRUD Application** [cite: 52]
+* **Task 2: Basic CRUD Application** 
     * Full **CRUD** functionality: Admins can create, read, update, and delete products.
-    * [cite_start]**User Authentication**: Secure user registration and login system[cite: 86].
-    * [cite_start]**Password Hashing**: Passwords are securely hashed using `password_hash()`[cite: 98].
-    * [cite_start]**Session Management**: `$_SESSION` is used to maintain user login states[cite: 99].
+    * **User Authentication**: Secure user registration and login system.
+    * **Password Hashing**: Passwords are securely hashed using `password_hash()`.
+    * **Session Management**: `$_SESSION` is used to maintain user login states.
 
 * **Task 3: Advanced Features Implementation**
-    * [cite_start]**Search Functionality**: A search bar allows filtering products by name or description [cite: 112-114].
-    * [cite_start]**Pagination**: The main product list is paginated to handle a large number of entries [cite: 115-116].
-    * [cite_start]**UI Improvements**: The entire application is styled with **Bootstrap 5** for a responsive, modern user interface [cite: 119-121].
+    * **Search Functionality**: A search bar allows filtering products by name or description .
+    * **Pagination**: The main product list is paginated to handle a large number of entries .
+    * **UI Improvements**: The entire application is styled with **Bootstrap 5** for a responsive, modern user interface .
 
 * **Task 4: Security Enhancements**
-    * [cite_start]**Prepared Statements**: All SQL queries use **MySQLi prepared statements** to prevent SQL injection attacks[cite: 137].
-    * [cite_start]**Form Validation**: Includes both client-side (`required`) and server-side (PHP) validation for all forms [cite: 139-140].
+    * **Prepared Statements**: All SQL queries use **MySQLi prepared statements** to prevent SQL injection attacks.
+    * **Form Validation**: Includes both client-side (`required`) and server-side (PHP) validation for all forms .
     * **Role-Based Access Control (RBAC)**:
         * `admin` role: Has full CRUD access.
-        * [cite_start]`user` role: Has read-only access (cannot see "Add", "Edit", or "Delete" buttons) [cite: 141-143].
+        * `user` role: Has read-only access (cannot see "Add", "Edit", or "Delete" buttons) .
 
 * **Task 5: Final Project and Certification**
-    * [cite_start]All features are fully integrated, tested, and debugged into this single, cohesive application[cite: 150].
+    * All features are fully integrated, tested, and debugged into this single, cohesive application.
 
 ---
 
